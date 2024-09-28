@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3a6d8c;
+}
+header{
+    display: flex;
+}
+header p{
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+nav{
+    margin: 5px;
+    padding: 5px;
+    margin-left: 50%;
+}
+nav ul li{
+    font-size: large;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:inline;
+    margin-left: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
+.Home{
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+}
+.main{
+    height: 380px;
+    width: 50%;
+}
+.main h2{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 50px;   
+}
+.main p{
+    font-size:medium ;
+    font-weight: 400;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-indent: 15px;
+    margin-left: 15px;
+}
+section img{
+    margin: 15px;
+    height: 35px;
+    width: 35px;
+    display:inline;
+    margin-left: 20px;
+    background-color: #fff;
+    margin-left: 30px;
+}
+.main button{
+    display: inline;
+    background-color: red;
+    border: 1px solid red;
+    height: 25px;
+    width: 100px;
+    padding: 5px;
+    color: #fff;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: #fff;
+    color: blue;
+    text-decoration: underline;
+    border: none;
+}
+.image{
+    height: 400px;
+    width: 50%;
+}
+.image img{
+    background-color: #fff;
+    height: 350px;
+    width: 390px;
+    margin-left: 40px;
+}
+div h2{
+    text-align: center;
+}
+.about{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.content{
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-indent: 30px;
+    line-height: 2;    
+}
+.photo img{
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+}
+.Service{
+    text-align: center;
+}
+.web{
+    border: 1px solid #000;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left:580px;
+}
+.front{
+    border: 1px solid #000;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left:580px;
+}
+.skills{
+    margin-left: 200px;
+}
+.skills li{
+    display:inline;
+    text-decoration: none;
+    margin-left:100px;
+    font-weight: 900;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
